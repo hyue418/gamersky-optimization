@@ -8,6 +8,7 @@
 // @icon         https://www.gamersky.com/favicon.ico
 // @grant        GM_addStyle
 // @license      GPL-3.0
+// @downloadURL  https://github.com/hyue418/gamersky-optimization/raw/master/gamersky-optimization.user.js
 // ==/UserScript==
 
 (function() {
