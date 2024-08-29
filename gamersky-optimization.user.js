@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         游民星空宽屏+去广告
 // @namespace    https://github.com/hyue418
-// @version      1.0.0
+// @version      1.0.1
 // @description  游民星空宽屏+去广告
 // @author       hyue418
 // @match        https://www.gamersky.com/*
@@ -18,7 +18,7 @@
     GM_addStyle('.Mid2_R {display:none !important}');
     GM_addStyle('.gs_ccs_appdown {display:none !important}');
 
-    // 优化页面宽度
+    // 优化页面
     GM_addStyle('.Mid2_L {width:auto !important; float:none !important}');
     GM_addStyle('.Mid2L_crumb {width:auto !important}');
     GM_addStyle('.Mid2L_tit {width:auto !important}');
@@ -32,4 +32,8 @@
     GM_addStyle('.Relevant {width:auto !important}');
     GM_addStyle('.box {width:auto !important}');
     GM_addStyle('.box_game {width:auto !important}');
+    GM_addStyle('.like.cur {display:none !important}');
+    GM_addStyle('.pinlun {display:none !important}');
+    GM_addStyle('.gs_ccs_solve {display:none !important}');
+    GM_addStyle('.gs_ccs_right {display:none !important}');
 })();
